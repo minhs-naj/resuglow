@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ResuGlow — AI Resume Analyzer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+button {
+    padding: 14px 28px;
+    background: #22c55e;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+code {
+    display: block;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>✨ ResuGlow</h1>
+<p>AI-powered resume analyzer that evaluates resumes and provides feedback, scoring, and suggestions.</p>
+
+<div class="card">
+<h2>How to Run Locally</h2>
+<code>pip install -r requirements.txt</code>
+<code>streamlit run resumm.py</code>
+<p>Then open: http://localhost:8501</p>
+</div>
+
+<div class="card">
+<h2>Launch App</h2>
+<button onclick="window.location.href='http://localhost:8501'">
+Open ResuGlow
+</button>
+</div>
+
+<div class="card">
+<h2>Tech Stack</h2>
+<p>Python • Streamlit • Groq API • pdfplumber</p>
+</div>
+
+<div class="card">
+<h2>Features</h2>
+<p>Resume scoring • AI feedback • PDF parsing • Suggestions</p>
+</div>
+
+</div>
+
+</body>
+</html>
