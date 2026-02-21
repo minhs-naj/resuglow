@@ -237,3 +237,7 @@ Integration of resume parsing
 UI decisions in Streamlit
 Testing and debugging
 Presentation preparation
+
+
+HOSTING 
+https://resuglow-xz9clxmsktfer6ybvn4p9z.streamlit.app/
